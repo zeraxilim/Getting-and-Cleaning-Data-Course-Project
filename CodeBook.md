@@ -15,12 +15,10 @@ are not given, but are presumably "g / second".
 
 ## Variables Used
 
-## Storage data frames for the "test" data set values, activity codes,
-## and subject numbers, respectively
+## Storage data frames for the "test" data set values, activity codes, and subject numbers, respectively
 test_data, test_labels, test_subjects
 
-## Storage data frames for the "train" data set values, activity codes,
-## and subject numbers, respectively
+## Storage data frames for the "train" data set values, activity codes, and subject numbers, respectively
 train_data, train_labels, train_subjects
 
 ## Table of activity names for the various activity codes
