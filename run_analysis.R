@@ -62,4 +62,4 @@ names(selected_data) = gsub('f_','Frequency_',names(selected_data))
 summary_data = selected_data %>% group_by(subject,activity) %>% summarise_each(funs(mean))
 
 ## Write to an output file
-write.table(summary_data,file = "getting_cleaning_data_course_project_summary.txt",row.name=FALSE,sep="\t")
+write.table(summary_data,file = "getting_cleaning_data_course_project_summary.txt",row.name=FALSE)
